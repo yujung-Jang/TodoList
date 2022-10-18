@@ -13,6 +13,7 @@ import javax.validation.Valid;
 import javax.validation.constraints.Positive;
 import java.util.List;
 
+@CrossOrigin(origins = "*", allowedHeaders = "*")
 @RestController
 @RequestMapping("/todo")
 @Validated
